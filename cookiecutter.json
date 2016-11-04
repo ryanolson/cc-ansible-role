@@ -3,7 +3,7 @@
   "email": "rmolson@gmail.com",
   "github_user": "ryanolson",
   "role": "webapp",
-  "role_name": "{{ cookiecutter.github_user }}-{{ cookiecutter.role }}",
+  "role_name": "{{ cookiecutter.github_user }}.{{ cookiecutter.role }}",
   "repo_name": "ansible-{{ cookiecutter.role }}",
   "short_description": "Ansible role for {{ cookiecutter.role|title }}",
   "version": "0.1.0",
