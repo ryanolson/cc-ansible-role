@@ -3,9 +3,9 @@
   "email": "rmolson@gmail.com",
   "github_user": "ryanolson",
   "role": "webapp",
-  "role_name": "{{ github_user }}-{{ role }}",
-  "repo_name": "ansible-{{ role }}",
-  "short_description": "Ansible role for {{ role|title }}",
+  "role_name": "{{ cookiecutter.github_user }}-{{ cookiecutter.role }}",
+  "repo_name": "ansible-{{ cookiecutter.role }}",
+  "short_description": "Ansible role for {{ cookiecutter.role|title }}",
   "version": "0.1.0",
   "min_ansible_version": "1.6",
   "allow_duplicates": "no"
