@@ -2,7 +2,6 @@
 
 allow_duplicates: {{ cookiecutter.allow_duplicates }}
 
-
 galaxy_info:
   author: {{ cookiecutter.full_name }}
   description: {{ cookiecutter.short_description }}
@@ -11,21 +10,7 @@ galaxy_info:
   platforms:
     - name: Ubuntu
       versions:
-        14.04
+        - trusty
+        - xenial
   categories:
-    #- cloud
-    #- cloud:ec2
-    #- cloud:gce
-    #- cloud:rax
-    #- clustering
-    #- database
-    #- database:nosql
-    #- database:sql
-    #- development
-    #- monitoring
-    #- networking
-    #- packaging
-    #- system
-    #- web
-
-
+    - system
